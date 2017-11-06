@@ -89,12 +89,6 @@
     <ClCompile Include="zlib\contrib\minizip\iowin32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="zlib\contrib\minizip\miniunz.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="zlib\contrib\minizip\minizip.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="zlib\contrib\minizip\mztools.c">
       <Filter>Source Files</Filter>
     </ClCompile>

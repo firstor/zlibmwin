@@ -198,8 +198,6 @@
     <ClCompile Include="zlib\compress.c" />
     <ClCompile Include="zlib\contrib\minizip\ioapi.c" />
     <ClCompile Include="zlib\contrib\minizip\iowin32.c" />
-    <ClCompile Include="zlib\contrib\minizip\miniunz.c" />
-    <ClCompile Include="zlib\contrib\minizip\minizip.c" />
     <ClCompile Include="zlib\contrib\minizip\mztools.c" />
     <ClCompile Include="zlib\contrib\minizip\unzip.c" />
     <ClCompile Include="zlib\contrib\minizip\zip.c" />
