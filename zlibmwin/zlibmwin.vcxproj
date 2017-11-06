@@ -103,11 +103,11 @@
       <ModuleDefinitionFile>zlibmwin.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy zlib\zlib.h ..\bin
-copy zlib\zconf.h ..\bin
-copy zlib\contrib\minizip\zip.h ..\bin
-copy zlib\contrib\minizip\unzip.h ..\bin
-copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
+      <Command>copy zlib\zlib.h ..\bin\header\ 
+copy zlib\zconf.h ..\bin\header\ 
+copy zlib\contrib\minizip\zip.h ..\bin\header\ 
+copy zlib\contrib\minizip\unzip.h ..\bin\header\ 
+copy zlib\contrib\minizip\ioapi.h ..\bin\header\ </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -124,11 +124,11 @@ copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
       <ModuleDefinitionFile>zlibmwin.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy zlib\zlib.h ..\bin
-copy zlib\zconf.h ..\bin
-copy zlib\contrib\minizip\zip.h ..\bin
-copy zlib\contrib\minizip\unzip.h ..\bin
-copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
+      <Command>copy zlib\zlib.h ..\bin\header\ 
+copy zlib\zconf.h ..\bin\header\ 
+copy zlib\contrib\minizip\zip.h ..\bin\header\ 
+copy zlib\contrib\minizip\unzip.h ..\bin\header\ 
+copy zlib\contrib\minizip\ioapi.h ..\bin\header\ </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -149,11 +149,11 @@ copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
       <ModuleDefinitionFile>zlibmwin.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy zlib\zlib.h ..\bin
-copy zlib\zconf.h ..\bin
-copy zlib\contrib\minizip\zip.h ..\bin
-copy zlib\contrib\minizip\unzip.h ..\bin
-copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
+      <Command>copy zlib\zlib.h ..\bin\header\ 
+copy zlib\zconf.h ..\bin\header\ 
+copy zlib\contrib\minizip\zip.h ..\bin\header\ 
+copy zlib\contrib\minizip\unzip.h ..\bin\header\ 
+copy zlib\contrib\minizip\ioapi.h ..\bin\header\ </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -174,11 +174,11 @@ copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
       <ModuleDefinitionFile>zlibmwin.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>copy zlib\zlib.h ..\bin
-copy zlib\zconf.h ..\bin
-copy zlib\contrib\minizip\zip.h ..\bin
-copy zlib\contrib\minizip\unzip.h ..\bin
-copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
+      <Command>copy zlib\zlib.h ..\bin\header\ 
+copy zlib\zconf.h ..\bin\header\ 
+copy zlib\contrib\minizip\zip.h ..\bin\header\ 
+copy zlib\contrib\minizip\unzip.h ..\bin\header\ 
+copy zlib\contrib\minizip\ioapi.h ..\bin\header\ </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
