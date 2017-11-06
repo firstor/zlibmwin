@@ -102,6 +102,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>zlibmwin.def</ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Command>copy zlib\zlib.h ..\bin
+copy zlib\zconf.h ..\bin
+copy zlib\contrib\minizip\zip.h ..\bin
+copy zlib\contrib\minizip\unzip.h ..\bin
+copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -116,6 +123,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>zlibmwin.def</ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Command>copy zlib\zlib.h ..\bin
+copy zlib\zconf.h ..\bin
+copy zlib\contrib\minizip\zip.h ..\bin
+copy zlib\contrib\minizip\unzip.h ..\bin
+copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -134,6 +148,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>zlibmwin.def</ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Command>copy zlib\zlib.h ..\bin
+copy zlib\zconf.h ..\bin
+copy zlib\contrib\minizip\zip.h ..\bin
+copy zlib\contrib\minizip\unzip.h ..\bin
+copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -152,6 +173,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>zlibmwin.def</ModuleDefinitionFile>
     </Link>
+    <PostBuildEvent>
+      <Command>copy zlib\zlib.h ..\bin
+copy zlib\zconf.h ..\bin
+copy zlib\contrib\minizip\zip.h ..\bin
+copy zlib\contrib\minizip\unzip.h ..\bin
+copy zlib\contrib\minizip\ioapi.h ..\bin</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
